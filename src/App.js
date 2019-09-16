@@ -5,7 +5,7 @@ import React from 'react';
 //import vanitaskitchen from './vanitas_kitchen.jpg';
 import masala from './masala.jpg';
 import vanita from './Vanita.jpg';
-import group from './vanitas_kitchen.jpg';
+//import group from './vanitas_kitchen.jpg';
 import vanita_says from './images/vanita_says.jpg';
 import './App.css';
 import Header from './components/header';
@@ -23,12 +23,10 @@ function App() {
         </p>
       </div>
       <div className="group">
-
         <div className="subgroup">
-          <div>
-          <img src={group} alt="Vanita Cooking" className="photos"></img>
+          <div className="main bg">
+            <h3>Title:</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.
           </div>
-          <div><h3>Title:</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.</div>
         </div>
         <div className="subgroup2">
         <div className="subgroup meet">
