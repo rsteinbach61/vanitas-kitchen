@@ -1,0 +1,91 @@
+body, html {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #F4837C;
+  color: #8B3037;
+  display: flex;
+  justify-content: space-around;
+  border-width: medium;
+  height: 250px;
+  width: auto;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.group {
+  /*height: 1000px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+}
+
+.subgroup {
+  /*height: 1000px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-style: solid;
+  border-color: #8B3037;
+}
+
+.photos {
+  width: 200px;
+
+  padding-left: 2em;
+}
+
+.head_images {
+  padding-top: 1em;
+  
+}
+
+.bg {
+  /* The image used */
+/*  background-image: url("./images/businesscard.jpg");*/
+
+  /* Full height */
+  height: auto;
+  width:100%;
+
+
+  /* Center and scale the image nicely */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.monthly_message {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.monthly_message img {
+  height: 55px;
+  width: 55px;
+  font-weight: bold;
+  padding-left: 10px;
+}
