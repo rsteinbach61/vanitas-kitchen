@@ -30,19 +30,20 @@ function App() {
           </div>
           <div><h3>Title:</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.</div>
         </div>
-
-        <div className="subgroup">
-          <div>
-          <img src={masala} alt="Vanita Cooking" className="photos"></img>
-          </div>
-          <div><h3>Title:</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.</div>
-        </div>
-
-        <div className="subgroup">
+        <div className="subgroup2">
+        <div className="subgroup meet">
           <div>
           <img src={vanita} alt="Vanita Cooking" className="photos"></img>
           </div>
-          <div> <h3>Meet Vanita:</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.</div>
+          <div><h3>Meet Vanita:</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.</div>
+        </div>
+
+        <div className="subgroup contact">
+          <div>
+          <img src={masala} alt="Vanita Cooking" className="photos"></img>
+          </div>
+          <div> <h3>Contact:</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. At ille pellit, qui permulcet sensum voluptate. Sed vos squalidius, illorum vides quam niteat oratio. Longum est enim ad omnia respondere, quae a te dicta sunt. An est aliquid, quod te sua sponte delectet? Aliter enim nosmet ipsos nosse non possumus.</div>
+        </div>
         </div>
       </div>
   </div>
